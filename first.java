@@ -1,7 +1,7 @@
 public class first
 {
 	public static void main(String args[])
-	{
-		System.out.println("vineeta");
+{
+		System.out.println("vineetakhurana");
 	}
 }
