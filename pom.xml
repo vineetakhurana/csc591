@@ -3,4 +3,12 @@
 	<groupId>csc591</groupId>
 	<artifactId>csc591-parent</artifactId>
 	<version>1</version>
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</groupId>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>	
 </project>
