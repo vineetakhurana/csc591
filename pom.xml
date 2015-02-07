@@ -5,10 +5,9 @@
 	<version>1</version>
 	<dependencies>
 		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</groupId>
-			<version>3.8.1</version>
-			<scope>test</scope>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-entitymanager</groupId>
+			<version>3.6.9.Final</version>
 		</dependency>
 	</dependencies>	
 </project>
