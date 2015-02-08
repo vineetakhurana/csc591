@@ -6,7 +6,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-entitymanager</groupId>
+			<artifactId>hibernate-entitymanager</artifactId>
 			<version>3.6.9.Final</version>
 		</dependency>
 	</dependencies>	
