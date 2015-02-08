@@ -5,9 +5,9 @@
 	<version>1</version>
 	<dependencies>
 		<dependency>
-			<groupId>org.elasticsearch</groupId>
-			<artifactId>elasticsearch-lang-python</artifactId>
-			<version>3.0.0</version>
+			<groupId>org.slf4j/groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.6.1/version>
 		</dependency>
 	</dependencies>	
 </project>
