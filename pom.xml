@@ -5,9 +5,9 @@
 	<version>1</version>
 	<dependencies>
 		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-entitymanager</artifactId>
-			<version>3.6.9.Final</version>
+			<groupId>org.elasticsearch</groupId>
+			<artifactId>elasticsearch-lang-python</artifactId>
+			<version>3.0.0-SNAPSHOT</version>
 		</dependency>
 	</dependencies>	
 </project>
