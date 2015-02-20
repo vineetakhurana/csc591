@@ -10,23 +10,25 @@
 			<version>2.5.0</version>
 		</dependency>
 	</dependencies>	
-	 <plugin>
+	 <reporting>
+    <plugins>
+        <plugin>
             <groupId>org.codehaus.mojo</groupId>
             <artifactId>findbugs-maven-plugin</artifactId>
-            <executions>
-              <execution>
-                <phase>package</phase>
-                <goals>
-                  <goal>findbugs</goal>
-                </goals>
-              </execution>
-            </executions>
+            <version>2.5.2</version>
             <configuration>
-              <findbugsXml>true</findbugsXml>
-              <effort>Max</effort>
-              <excludeFilterFile>${build.home}findbugs/findbugs-exclude.xml</excludeFilterFile>
-              <failOnError>false</failOnError>
-              <sourceEncoding>${file.encoding}</sourceEncoding>
+                <!--
+                    Enables analysis which takes more memory but finds more bugs.
+                    If you run out of memory, changes the value of the effort element
+                    to 'low'.
+                -->
+                <effort>Max</effort>
+                <!-- Reports all bugs (other values are medium and max) -->
+                <threshold>Low</threshold>
+                <!-- Produces XML report -->
+                <xmlOutput>true</xmlOutput>
             </configuration>
-          </plugin>
+        </plugin>
+    </plugins>
+</reporting>
 </project>
